@@ -1,3 +1,4 @@
+//Selectors
 var points = document.querySelector('.points');
 var quant = document.querySelectorAll('.slides .image');
 
@@ -13,7 +14,6 @@ var title = document.querySelector('h2');
 var closeButton = document.querySelector('#close');
 
 //Events
-
 for(let i = 0; i < quant.length; i++){
 
     var div = document.createElement('div');
@@ -66,7 +66,6 @@ for(let image of quant){
 }
 
 //Functions
-
 function slide(){
     if(atual >= quant.length){
         atual = 0;
